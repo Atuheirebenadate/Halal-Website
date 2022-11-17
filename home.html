@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <section class="home">
+        <div class="navbars">
+            <div class="nav-list">
+
+              <div class="hamburger">
+                <div class="bar">
+
+            <img src="/Images/logo .png" width="120px" height="40px" alt="/">
+        </div>
+            <ul class="navbar">
+              <a href="index.html">HOME</a>
+              <a href="About.html">OUR STORY</a>
+               <a href="welcome.html">WHAT WE DO</a>
+               <a href="index.html">OUR TEAM</a>
+               <a href="About.html">CONTACT US</a>
+            </ul>
+          </div>
+              <div class="content">
+                <h1 style="color: rgb(7, 7, 71);">A Telecommunications Tower <br>  <h1 style="color: orange;">Consultancy/Management Firm </h1 ><br><h1 style="color: rgb(5, 5, 36);">Based in Uganda.</h1>
+                <h4 style="color: black;">Our Primary audience is Tower Owners and Landlords. We help our clients with; 
+                    <br>Acquisitions, Tower Landlord Management, and Fibre roll out wayleaves across the country. 
+                    <br>Let’s get your project up and running on time.
+                </h4>
+              </div>
+        </div>
+       <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="/Images/item-1.jpg" style="width:100%">
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="Images/item-2.jpg" style="width:100%">
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="/Images/item-3.jpg" style="width:100%">
+      <!-- <div class="text">Caption Three</div> -->
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+          <div class="products">
+            <div class="items">
+                <a href="#projects" type="button" class="cta"> <h3 style="color: white;">Our services</h3></a>
+            </div>
+            <h3>15+ years of in-house experience <br>
+             and expertise in the tower industry.</h3>
+          </div>
+        <div class="ouritems">
+          <div class="acqustion">
+          <img src="/Images/way.png" alt="">
+          <h2 style="color: rgb(23, 23, 72);">Acquisitions</h2>
+          <h5>We recognize that site acquisition <br>
+            services are an integral part of the <br>
+            overall success of your project.</h5>
+        </div>
+        <div class="Renewal Negotiations">
+            <img src="/Images/cope.png" alt="">
+            <h2 style="color: rgb(23, 23, 72);">Renewal Negotiations</h2>
+            <h5>We help ease the stress and burden of a<br>
+                lengthy and complex process and make<br>
+                sure your interests are protected.</h5>
+          </div>
+          <div class="Conflict Resolutions">
+            <img src="/Images/people.png" alt="">
+            <h2 style="color: rgb(23, 23, 72);">Conflict Resolutions</h2>
+            <h5>We help resolve conflicts,<br>
+                miscommunication, disputes and<br>
+                miscommunication, disputes and</h5>
+          </div>
+          <div class="Wayleaves Negotiations">
+            <img src="/Images/phone.png" alt="">
+            <h2 style="color: rgb(23, 23, 72);">Wayleaves Negotiations</h2>
+            <h5>We manage the ‘grass and steel’ side of<br>
+                the business whilst you focus on your<br>
+                core business.</h5>
+          </div>
+    </div>
+    <footer class="ourfooter">
+        <div class="contact">
+        <h3>Contact $ Address</h3>
+        <p>Plot 3125, Badu Close, 
+            <br> Kyanja,Kampala.<br>
+            Office: +256 393 252 374 <br>
+            Mobile: +256 772 212 517 <br>
+            WhatsApp: +256 772 718 233</p>
+        </div>
+        <div class="company">
+            <h3>Company</h3>
+            <p>Our story<br>
+                What we do<br>
+                Our team<br>
+                Contact us</p>
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <p>Purpose<br>
+                    Vision<br>
+                    values<br>
+                    Goal</p>
+                </div>
+    </footer>
+
+        </section>
+
+        
+    
+</body>
+</html>

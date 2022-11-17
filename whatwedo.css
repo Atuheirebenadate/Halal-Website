@@ -1,0 +1,13 @@
+.hamburger{
+    display: flex;
+    margin-left: 80px  ;
+    margin-top: 3%;
+    
+    }
+    .navbar , a{
+        display: flex;
+       text-align: right;
+       text-decoration: none;
+       margin-left: 80px  ;
+       list-style: none;
+    }
