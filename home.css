@@ -37,9 +37,10 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
+  overflow-x: hidden;
+  /* background-size: cover; */
   margin: auto;
   margin-top: 10%;
-  width: 100%;
 }
 
 /* Next & previous buttons */
