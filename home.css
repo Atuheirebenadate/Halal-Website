@@ -1,7 +1,7 @@
-.body{
+body{
   background-color:#f1f1f1;
+  /* background-image: url(Images/background.png); */
 }
-
 .hamburger{
 display: flex;
 margin-left: 80px  ;
@@ -13,6 +13,7 @@ margin-top: 3%;
    text-decoration: none;
    margin-left: 80px  ;
    list-style: none;
+  
 }
 h1{
   font-family: 'IBM Plex Sans';
@@ -20,9 +21,11 @@ h1{
   font-style: normal;
   font-size: 1.5cm;
   text-align: left;
+  margin-bottom:-15px;
 }
 .content h4{
   font-size: 0.5cm;
+  margin-top: 80px;
 }
 .content{
     margin-top: 8%;
@@ -126,6 +129,9 @@ img {vertical-align: middle;}
     display: flex;
     justify-content: space-between;
 }
+img{
+  margin-left: 60px;
+}
 /* footer */
 .ourfooter{
     display: flex;
@@ -144,11 +150,21 @@ img {vertical-align: middle;}
     margin-left: 30%     
     
 }
-
+h2{
+  margin-left: 50px;
+}
 h3{
   text-align: left;
-  
-}
+  margin-right: 50px;
+ }
+h4{
+  margin-left: 80px;
+  margin-top: 50px;
+
+ }
+h5{
+  margin-left: 50px;
+} 
 /* font fances */
 
 

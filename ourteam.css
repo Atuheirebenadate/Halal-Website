@@ -63,3 +63,11 @@
         text-align: center;
         color: #094a6b;
     }
+    .ourfooter{
+     background-color: #094a6b;
+     color: aliceblue;
+     display: flex;
+     text-align: center;
+     justify-content: space-between;
+   }
+    

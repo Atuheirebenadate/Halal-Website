@@ -1,3 +1,5 @@
+
+
 .hamburger{
     display: flex;
     margin-left: 80px  ;
@@ -10,4 +12,70 @@
        text-decoration: none;
        margin-left: 80px  ;
        list-style: none;
+    
     }
+/* The grid: Three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 20.33%;
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    margin-top: 9%; 
+    margin-left: 100px;
+  }
+  .column2 {
+    float: left;
+    width: 20.33%;
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    margin-top: 9%; 
+    height: 500px;
+    margin-left: 160px;
+  }
+  .column3 {
+    float: left;
+    width: 20.33%;
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin-top: 5%; 
+    margin-left: 57%;
+    height: 500px;
+
+
+  }
+  .column4 {
+    float: left;
+    width: 20%;
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin-top: -55%;
+    margin-left: 9%;
+    height: 500px;
+
+  
+  }
+  .footers{
+    color: rgb(239, 230, 230);
+    margin-top: 130%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#094a6b;
+  }
+  
+
+  
+  
